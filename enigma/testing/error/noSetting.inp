@@ -1,0 +1,25 @@
+Message without a configuration.
+Other errors tested in UnitTest.
+
+defaultRotorError will cause:
+Error: Rotor is improperly formatted
+
+defaultNumRotorError will cause:
+Error: NumRotors and pawls must be integers
+
+noSetting.inp
+Error: Must start with a setting line
+
+        if (line.trim().equals("") && !_input.hasNext()) {
+            _output.print("\n");
+        } else if (!_input.hasNext()) {
+            if (!line.equals("") && line.length() > 0) {
+                line = line.substring(0, line.length() - 1).trim();
+            }
+            _output.print(line);
+        } else if (_input.hasNext()) {
+            _output.print(line + "\n");
+        }
+                        if (command.trim().equals("") && !_input.hasNext()) {
+                            printMessageLine("");
+                        }

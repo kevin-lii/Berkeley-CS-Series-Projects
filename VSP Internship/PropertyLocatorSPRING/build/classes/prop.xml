@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle-list>
+	<bundles>
+		<bundle file="address" location="com.java.address"></bundle>
+		<bundle file="sports" location="com.java.sports"></bundle>
+		<bundle file="authorization" location="com.java.authorization"></bundle>
+	</bundles>
+</bundle-list>

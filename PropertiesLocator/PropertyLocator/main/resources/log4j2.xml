@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  	<Appenders>
+  		<File name="StatusLog" fileName="../../Documents/Logs/StatusLog.log">
+      		<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %p %c{1.} %msg%n"/>
+    	</File>
+  	</Appenders>
+  	<Loggers>
+    	<Root level="ERROR">
+      		<AppenderRef ref="StatusLog"/>
+    	</Root>
+  		<logger name="com.java" level="INFO" additivity="false">
+  			<AppenderRef ref="StatusLog"/>
+  		</logger>
+  	</Loggers>
+</Configuration>

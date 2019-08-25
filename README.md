@@ -1,2 +1,2 @@
-# CS-Portfolio
-This repository is for projects I created I created in my time at UC Berkeley and VSP internship, including the 61 series and more. These projects are not intended to be copied off of.
+# Properties Locator
+This repository is for Properties Locator that uses Jersey, Spring, and Backbone that is capable of make http calls and retrieve the proper .properties files from a database
